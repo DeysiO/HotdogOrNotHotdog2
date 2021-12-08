@@ -13,6 +13,7 @@
 		6A784FFF2755B0CA0009A24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A784FFD2755B0CA0009A24F /* Main.storyboard */; };
 		6A7850012755B0CE0009A24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7850002755B0CE0009A24F /* Assets.xcassets */; };
 		6A7850042755B0CE0009A24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7850022755B0CE0009A24F /* LaunchScreen.storyboard */; };
+		6A78500E2758432C0009A24F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6A78500D2758432C0009A24F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A7850002755B0CE0009A24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A7850032755B0CE0009A24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A7850052755B0CE0009A24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A78500D2758432C0009A24F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6A784FFD2755B0CA0009A24F /* Main.storyboard */,
 				6A7850002755B0CE0009A24F /* Assets.xcassets */,
 				6A7850022755B0CE0009A24F /* LaunchScreen.storyboard */,
+				6A78500D2758432C0009A24F /* Inceptionv3.mlmodel */,
 				6A7850052755B0CE0009A24F /* Info.plist */,
 			);
 			path = HotdogOrNotHotdog;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A78500E2758432C0009A24F /* Inceptionv3.mlmodel in Sources */,
 				6A784FFC2755B0CA0009A24F /* ViewController.swift in Sources */,
 				6A784FF82755B0CA0009A24F /* AppDelegate.swift in Sources */,
 				6A784FFA2755B0CA0009A24F /* SceneDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDN9JS3Q37;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HotdogOrNotHotdog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDN9JS3Q37;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HotdogOrNotHotdog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
